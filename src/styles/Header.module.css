@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  width: 100vw;
+  height: 80px;
+  background-color: #3a0ca3;
+  transition: 0.3s ease-in-out all;
+}
+
+header .brand a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: #f72585;
+}
+
+header .brand img {
+  height: 50px;
+  margin-right: 20px;
+}
+
+header nav .navList {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f72585;
+}
+
+header nav .navList .navItem .navLink {
+  color: #f72585;
+  margin-right: 10px;
+  padding: 3px 10px;
+  font-size: 2.5rem;
+  border-radius: 5px;
+}
+
+header nav .navList .navItem a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+header nav .navList .navItem .navLink:hover {
+  background-color: #f72585;
+  background-image: linear-gradient(to bottom right, #4cc9f0, #f72585);
+  color: #3a0ca3;
+}
+
+header nav .navList .navItem .navLinkActive {
+  margin-right: 10px;
+  padding: 3px 10px;
+  font-size: 2.75rem;
+  border-radius: 5px;
+  background-color: rgb(247, 37, 133);
+  background-image: linear-gradient(to bottom right, #4cc9f0, #f72585);
+  color: #3a0ca3;
+}
+
+@media screen and (max-width: 948px) {
+  header .brand a {
+    font-size: 1rem;
+  }
+  header nav .navList .navItem .navLink {
+    font-size: 1rem;
+  }
+  header nav .navList .navItem .navLinkActive {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  header .brand a {
+    font-size: 0.75rem;
+  }
+  header nav .navList .navItem .navLink {
+    font-size: 0.75rem;
+  }
+  header nav .navList .navItem .navLinkActive {
+    font-size: 0.75rem;
+  }
+}

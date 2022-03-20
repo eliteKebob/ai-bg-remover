@@ -1,0 +1,89 @@
+.landingBody {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  width: 80%;
+  background-color: #3a0ca3;
+  background-image: linear-gradient(to bottom right, #b5179e, #3a0ca3);
+  border: 1px black;
+  border-radius: 2%;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mainImg {
+  display: flex;
+  justify-content: center;
+  border-radius: 3%;
+  border: 1px solid #3a0ca3;
+  padding: 1px;
+  max-width: 100%;
+  height: auto;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s ease-in-out all;
+}
+
+.mainImg:hover {
+  box-shadow: 0 0 2px 1px rgba(158, 203, 255, 0.5);
+  transform: rotateZ(-31deg);
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  border: 1px black;
+  background-color: rgb(158, 203, 255);
+  border-radius: 1%;
+  padding: 1px;
+  margin-left: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formDiv input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  opacity: 0.75;
+}
+
+.formButton {
+  padding: 5px 15px;
+  background: none;
+  background-color: #f72585;
+  background-image: linear-gradient(to bottom right, #4cc9f0, #f72585);
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s;
+  border-radius: 1%;
+  border: 1px solid #3a0ca3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formButton:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em rgba(247, 37, 133, 0.5);
+  background-image: linear-gradient(to top right, #b8e1ee, #f3a0c5);
+  color: #3a0ca3;
+  transform: translateY(-0.5em);
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5%;
+}

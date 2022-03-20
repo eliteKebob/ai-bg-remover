@@ -1,0 +1,32 @@
+.encodedPage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  transition: 0.5s all;
+  border-radius: 2%;
+  color: #3a0ca3;
+  letter-spacing: 0.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.encodedImg {
+  display: flex;
+  justify-content: center;
+  border-radius: 3%;
+  border: 2px solid #3a0ca3;
+  padding: 1px;
+  width: 300px;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.encodedImg:hover {
+  box-shadow: 0 0 5px 5px rgba(247, 37, 133, 1);
+}

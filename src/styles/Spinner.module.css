@@ -1,0 +1,14 @@
+.spinner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.spinner img {
+  width: 50px;
+  height: auto;
+}
